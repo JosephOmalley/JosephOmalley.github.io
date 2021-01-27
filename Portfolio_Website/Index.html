@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Joe's Portfolio</title>
+    <link rel="stylesheet" href="Portfolio_style.css">
+    <script src="https://kit.fontawesome.com/6c04a7b5a3.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+      <!--START CAROUSEL-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="position-control">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        </div>
+        <!--START HOME/ABOUT-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Joseph O'Malley<br>Software Dev</h1>
+                  <p class="lead">Dreaming of being able to contribute to an orginization I care about.</p>
+                </div>
+              </div>
+              <h1 id="quote">“Truth can only be found in one place: the code.”<br>
+                ― Robert C. Martin</h1>
+          </div>
+          <!--END HOME/ABOUT-->
+
+          <!--START INFO-->
+          <div class="carousel-item">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Educaition + <br>Skills</h1>
+                  <p class="lead">A representation of my ablities.</p>
+                  
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <h3>Languages:</h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center" >
+                    <p>HTML&NonBreakingSpace;<i class="fab fa-html5"></i></p>
+                  <span class="badge badge-warning badge-pill">Learning</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <p>CSS&NonBreakingSpace;<i class="fab fa-css3-alt"></i></p>
+                  <span class="badge badge-warning badge-pill">Learning</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <p>JavaScript&NonBreakingSpace;<i class="fab fa-js"></i></p>
+                  <span class="badge badge-warning badge-pill">Learning</span>
+                </li>
+              </ul>
+                  </div>
+                  <div class="col-sm">
+                      <h3>Links to projects:</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center" >
+                             <a href="https://github.com/JosephOmalley">GitHub&NonBreakingSpace;<i class="fab fa-github"></i></a>
+                        </li>
+                      </ul>
+                  </div>
+                  <div class="col-sm">
+                      <h3>Education:</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center" >
+                             I am currently attending The Tech academy
+                             <h5>Progress:</h5> <br>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" >
+                            <div class="progress w-100">
+                               <div class="progress-bar"  role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+                             </div>
+                       </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+            <!--END INFO-->
+
+            <!--START CONTACT-->
+          <div class="carousel-item">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4 text-center">Contact </h1>
+                </div>
+              </div>
+              <form action="https://formspree.io/f/xrgojjgr"
+              method="POST">
+                  
+                <div class="form-group w-50 ">
+                    <label for="exampleFormControlInput1"><h1 id="styleform">Enter email address:</h1></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  
+                  <div class="form-group w-50">
+                    <label for="exampleFormControlTextarea1"><h1 id="styleform">Enter message:</h1></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 "placeholder="Message..."></textarea>
+                  </div>
+              </form>
+              <a id="linkedin" href="https://www.linkedin.com/in/joseph-omalley-093427203/"><h1 id="stylelinkedin">My Linkedin &NonBreakingSpace;<i class="fab fa-linkedin"></i></h1></a>
+          </div>
+          <!--END CONTACT-->
+        </div>
+        <div class="position-control-button">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        </div>
+      </div>
+      <!--END CAROUSEL -->
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
