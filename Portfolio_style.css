@@ -40,7 +40,7 @@ h3 {
     font-size: 40pt;
     color: #e9ecef;
 }
-
+/* hover effect*/
 #stylelinkedin:hover {
     cursor: pointer;
     font-weight: bold;
