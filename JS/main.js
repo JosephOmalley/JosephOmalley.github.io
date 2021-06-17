@@ -10,8 +10,6 @@ function typeWriter() {
   }
 }
 
-
-
 const card = document.querySelectorAll('.card-inner');
 card.forEach((card) => {
     card.addEventListener('click', function() {
