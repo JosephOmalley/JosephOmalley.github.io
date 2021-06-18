@@ -1,5 +1,5 @@
 var i = 0;
-var txt = ' me by filling out the info below';
+var txt = ' me by filling out the info below.';
 var speed = 50;
 
 function typeWriter() {
