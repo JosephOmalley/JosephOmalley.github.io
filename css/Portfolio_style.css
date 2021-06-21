@@ -67,6 +67,8 @@ h3 {
     margin-top: 20px;
     position: relative;
     float: left;
+    padding: 10px;
+    bottom: 20px; 
 }
 
 .card-inner {
@@ -76,7 +78,7 @@ h3 {
     transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
-    padding: 10px
+    
 }
 
 .card-inner.is-flipped {
