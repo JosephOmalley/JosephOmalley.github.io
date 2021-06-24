@@ -140,7 +140,6 @@ h3 {
     
 }
 
-
 .carousel-control-next-icon{
     top:46.5vh;
     position:fixed;
@@ -153,3 +152,16 @@ h3 {
     left:10px
     
 }
+
+.inner_card__header{
+    text-align: center;
+}
+
+.inner_card__body{
+    padding-left: 5px; 
+    padding-right: 5px;
+    text-overflow: scroll;
+}
+
+
+	
