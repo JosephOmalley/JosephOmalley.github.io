@@ -5,7 +5,7 @@ pythonProjects[2]= "<li class='list-group-item d-flex justify-content-between al
 
 var javascriptProjects = [];
 javascriptProjects[0]= "<li class='list-group-item d-flex justify-content-between align-items-center'><a href='https://github.com/JosephOmalley/JavaScript-Projects/tree/main/Vanilla%20JavaScript/Pizza_Project'>Pizza Shop Project</a></li>";
-javascriptProjects[1]= "<li class='list-group-item d-flex justify-content-between align-items-center'><a href='https://github.com/JosephOmalley/JavaScript-Projects/tree/main/Vanilla%20JavaScript/TicTacToe'>File Management Program</a></li>";
+javascriptProjects[1]= "<li class='list-group-item d-flex justify-content-between align-items-center'><a href='https://github.com/JosephOmalley/JavaScript-Projects/tree/main/Vanilla%20JavaScript/TicTacToe'>Tic Tac Toe </a></li>";
 javascriptProjects[2]= "<li class='list-group-item d-flex justify-content-between align-items-center'><a href='https://github.com/JosephOmalley/JavaScript-Projects/tree/main/Vanilla%20JavaScript/To-Do%20list'>To-Do List</a></li>";
 
 
@@ -21,7 +21,7 @@ mvcProjects[0]= "<li class='list-group-item d-flex justify-content-between align
 var djangoProjects = [];
 djangoProjects[0]= "<li class='list-group-item d-flex justify-content-between align-items-center'><a href='https://github.com/JosephOmalley/DjangoProject'>WordNerd Django CRUD app</a></li>"
 
-https://github.com/JosephOmalley/DjangoProject
+
 
 var i = 0;
 var txt = ' me by filling out the info below.';
