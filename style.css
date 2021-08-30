@@ -1,0 +1,235 @@
+canvas{
+    position: fixed;
+    top: 0;
+    left: 0;  
+  }
+  
+  main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #intro-Header{
+    position: relative;
+    top: -15px;
+    animation: 2s slide-right-header forwards;
+    transform:translateX(-100%);  
+    color: white;
+  }
+  
+  @keyframes slide-right-header {
+    to {
+      transform:translateX(0);
+    }
+  }
+  
+  #project-container{
+    position: relative;
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
+  } 
+  
+  .project-card{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    margin : 30px auto 0 auto;
+    display: inline-flex;
+    flex-flow: wrap;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .project-card:hover{
+    box-shadow: 0px 3px 18px 3px rgba(22, 22, 22, 0.26)
+  }
+  
+  .project-link{
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  
+  .card-layout--pic{
+    position: relative;
+    min-width: 125px;
+    background-color: black;
+    height: 130px;
+    width:  130px;
+  }
+  
+  #Project_Image{
+    width:100%;
+    height:100%;
+    object-fit:scale-down;
+    cursor: pointer;
+  }
+  
+  .card-layout--desc{
+    position: relative;
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    height: 130px;
+    width: 170px;  
+  }
+  
+  .card-desc--text{
+    font-size: 10px;
+    padding: 20px;
+  }
+  
+  .card-layout--footer{
+    position: relative;
+    height: 70px;
+    width: 300px;
+    color: white;
+    background: linear-gradient(to bottom, #b3b3b3, #c5c5c5);
+  }
+  
+  .Footer-Header{
+    position:relative;
+    top: -13px;
+    left: 6px;
+    
+  }
+  
+  .Skills-List{
+    position: relative;
+    display: inline;
+    top: -50px;
+    left: 6px;  
+    font-size: 10px;
+  }
+  
+  #project-header{
+    position: absolute;
+    top: 500px;
+    color: white;
+  }
+  
+  #intro-Header{
+    position: relative;
+    color:black; 
+    text-align: left;
+    left: 10px;
+    padding-top: 10px;
+    font-weight: 100;
+    cursor: default;  
+  }
+  
+  #NavBar-Container{
+    position: fixed;
+    top: 3px;
+    font-size: 12px;
+    left: 3px;
+    z-index: 10;
+    padding: 5px;
+  }
+  
+  #CloseNav{
+    color:red;
+    margin-left: 17px;
+    cursor: pointer
+  }
+  
+  #NavBar-Container > a {
+    color:black;
+    text-decoration: none;
+  }
+  
+  .body-text{
+    position: relative;
+    max-width: 250px;
+    text-align: left;
+    left: 10px;
+    margin-bottom: 20px; 
+    top: -25px;
+    color: grey;
+  }
+  
+  #skill-Header{
+    position: absolute;
+    top: 19;
+    text-align: right;
+    right: 30px;
+    color: white;
+  }
+  
+  #skill-text{
+    position:absolute;
+    max-width: 250px;
+    text-align: right;
+    color: white;
+    top: -30px;
+    right: 10px;
+  }
+  
+  #skill-container{
+    position: absolute;
+    width: 100%;
+    right: 10px;
+  }
+  
+  #intro-container{
+    position: relative;
+    width: 250px;
+    height: 75px;
+    border: 1px solid black;
+    margin: 0 auto;
+    top: 150px;
+    animation: 2s slide-right-container forwards;
+    transform:translateX(-100%);
+  }
+  
+  @keyframes slide-right-container {
+    to {
+      transform:translateX(0);
+    }
+  }
+  
+  #sortbar-container{
+    position: relative;
+    height: 35px;
+    width: 100%; 
+    background-color: black;
+    margin: auto 0;
+    border-radius: .75vh;
+    color: white;
+    overflow: auto;
+  }
+  
+  .sortbar-buttons{
+    position: relative;
+    display: inline;
+    margin-left: 10px;
+    cursor: pointer;
+    top: 3px;
+  }
+  
+  .skill-list{
+    text-align: center;
+  }
+  
+  #contact-container{
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: relative;
+    text-align:left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align:center;
+  }
+  
+  #contact-header{
+    padding: 17.5px;
+  }
+  
+  #top{
+    height: 470px;
+    width: 100%;
+  }
+  
